@@ -106,7 +106,8 @@ header nav ul li#logo a:hover {
 
 #hero {
    background-image: url('../images/bg-tile-yellow.gif');
-   width: 100%;
+   
+width: 100%;
 }
 
 #hero .container {
