@@ -12,9 +12,18 @@
 body {
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizelegibility;
+   position: relative;
+   width:100%;
+   margin:auto;
+   background-image: url('../images/bg-tile.gif');
+   font-family: "Open Sans";
 }
 
 .container {
+   position: relative;
+   margin: auto;
+   text-align: center;
+   width:60%;
 
 }
 
@@ -22,7 +31,7 @@ body {
 /* Typography */
 
 h1, h2 {
-
+   font-family: "Love Ya Like A Sister";
 }
 
 h1 {
@@ -65,7 +74,7 @@ hr {
 /* Header */
 
 header nav {
-
+   margin: auto;
 }
 
 header nav ul {
@@ -73,7 +82,7 @@ header nav ul {
 }
 
 header nav ul li {
-
+   display: inline;
 }
 
 header nav ul li a {
@@ -96,7 +105,8 @@ header nav ul li#logo a:hover {
 /* Hero */
 
 #hero {
-
+   background-image: url('../images/bg-tile-yellow.gif');
+   width: 100%;
 }
 
 #hero .container {
@@ -156,7 +166,7 @@ header nav ul li#logo a:hover {
 /* Footer */
 
 footer.main {
-
+   background-image: url('../images/bg-tile-brown.gif');
 }
 
 footer.main a:hover {
